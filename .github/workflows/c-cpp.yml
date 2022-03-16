@@ -15,6 +15,6 @@ jobs:
     
   
     - name:  build
-      working-directory: /test
+      working-directory: test
       run: cpp main.cpp -o compiled_Hello_World
     
