@@ -13,7 +13,6 @@ jobs:
 
     steps:
     
-  
     - name:  build
       working-directory: test
       run: cpp main.cpp -o compiled_Hello_World
