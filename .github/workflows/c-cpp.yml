@@ -14,5 +14,5 @@ jobs:
     steps:
     
     - name:  build
-      run: cpp main.cpp -o compiled_Hello_World
+      run: cpp /test/main.cpp -o compiled_Hello_World
     
