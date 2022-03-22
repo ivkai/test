@@ -1,18 +1,13 @@
 name: C/C++ CI Pipeline
 
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-
+on: [ push ]
 jobs:
   build:
-
     runs-on: windows-2019
 
     steps:
       - run: choco install gh
       - run: gh version
+  
+
     
