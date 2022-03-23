@@ -6,7 +6,7 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - run: choco install gh
+      - run: choco install python
       - run: gh version
   
 
